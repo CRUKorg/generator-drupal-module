@@ -1,7 +1,8 @@
 # generator-drupal-module [![Build Status](https://secure.travis-ci.org/DavidHughes/generator-drupal-module.png?branch=master)](https://travis-ci.org/DavidHughes/generator-drupal-module)
 
-> [Yeoman](http://yeoman.io) generator
+A **[Yeoman](http://yeoman.io) generator** which constructs the building blocks of Drupal module.
 
+When you generate a module with generator-drupal-module, your scripts and stylesheets are in standardised places and your module is Grunt enabled, enabling you to immediately `grunt watch` and develop away!
 
 ## Getting Started
 
@@ -29,11 +30,18 @@ To install generator-drupal-module from npm, run:
 $ npm install -g generator-drupal-module
 ```
 
-Finally, initiate the generator:
+### Creating your module
 
+Making a module with yeoman takes 3 steps:
 ```
+# Make your module's directory
+$ mkdir cruk_new_module
+# Enter the directory
+$ cd cruk_new_module
+# Fire up Yeoman
 $ yo drupal-module
 ```
+
 
 ### Getting To Know Yeoman
 
